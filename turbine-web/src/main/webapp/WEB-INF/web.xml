@@ -16,5 +16,18 @@
     <servlet-name>TurbineStreamServlet</servlet-name>
     <url-pattern>/turbine.stream</url-pattern>
   </servlet-mapping>
+
+
+  <servlet>
+    <description></description>
+    <display-name>ProxyStreamServlet</display-name>
+    <servlet-name>ProxyStreamServlet</servlet-name>
+    <servlet-class>com.fourthlion.lapp.ccd.config.hystrix.ProxyStreamServlet</servlet-class>
+  </servlet>
   
+  <servlet-mapping>
+    <servlet-name>ProxyStreamServlet</servlet-name>
+    <url-pattern>/proxy.stream</url-pattern>
+  </servlet-mapping>
+
 </web-app>
