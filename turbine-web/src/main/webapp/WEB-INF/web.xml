@@ -27,7 +27,7 @@
   
   <servlet-mapping>
     <servlet-name>ProxyStreamServlet</servlet-name>
-    <url-pattern>/proxy.stream</url-pattern>
+    <url-pattern>/hystrix/proxy.stream</url-pattern>
   </servlet-mapping>
 
 </web-app>
